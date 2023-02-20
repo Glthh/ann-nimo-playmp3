@@ -7,7 +7,7 @@ var music = document.getElementById("music-playing");
 var nome = "";
 function musica() {
 nome = document.getElementById('valor').value;
-fetch(`https://nezsab-apis.fly.dev/youtube/playmp3?q=${nome}&apikey=key-do-anonimo-2.6`)
+fetch(`https://nezsab-apis.xyz/youtube/playmp3?q=${nome}&apikey=key-do-anonimo-2.6`)
 .then(bct => bct.json())
 .then(ress => ress.resultado)
 .then(puxJson => {
